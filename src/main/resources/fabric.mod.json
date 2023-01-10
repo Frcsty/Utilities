@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "utilities",
+  "version": "${version}",
+  "name": "Utilities",
+  "description": "A simple mod collection of useful additions/changes",
+  "authors": [
+    "Frcsty"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/Utilities/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.github.frcsty.utilities.client.UtilitiesClient"
+    ],
+    "main": [
+      "com.github.frcsty.utilities.Utilities"
+    ]
+  },
+  "mixins": [
+    "Utilities.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.12",
+    "fabric": "*",
+    "minecraft": "1.19.3"
+  }
+}
